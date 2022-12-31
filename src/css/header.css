@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    /* background: #161415 url(../images/logo192.png) no-repeat top center; */
+    background-size: cover !important;
+     -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+ }
+ .header_content{
+    text-align: center;
+    padding-top: 300px;
+ }
