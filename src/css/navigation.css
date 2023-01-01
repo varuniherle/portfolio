@@ -1,0 +1,7 @@
+.navbar_css{
+    position: sticky;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}

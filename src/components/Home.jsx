@@ -1,22 +1,34 @@
 import React from 'react'
 import Navigation from './Navigation'
-import '../css/header.css'
-import { Button } from 'react-bootstrap'
-import { ArrowDown } from 'react-bootstrap-icons'
+import Education from './Education'
+import Header from './Header'
+import About from './About'
+import Experience from './Experience'
+import Portfolio from './Portfolio'
+import '../css/home.css'
+
 
 function Home() {
   return (
     <div >
-        <Navigation />
-        <div className='header'>
-            <div  className='header_content'>
-            <h2>Hey!</h2>
-            <h1>I am Varuni</h1>
-            <p>I am a full stack Developer, I like to learn new technologies</p>
-            <Button className="btn btn-outline-dark" ><ArrowDown /></Button>
-            </div>
-            
-        </div>
+    <Navigation />
+    {/* header */}
+    <div className='home_padding'>
+
+    <div id = "home">
+    <Header />
+    </div>
+
+    <div id ="portfolio">
+    <Portfolio />
+    </div>
+    
+    </div>
+     
+    {/* header ends */}
+
+    
+    
     </div>
   )
 }
