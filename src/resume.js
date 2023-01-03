@@ -38,7 +38,7 @@ const data = {
             "marks":"94%",
             "class": "10th or SSLC",
             "grade_type": "Percentage",
-            "desc":"I have taken part in a variety of cultural and athletic events."
+            "desc":"I have taken part in a many cultural and athletic events."
         },
         
     ],
