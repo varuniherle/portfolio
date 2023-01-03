@@ -33,7 +33,7 @@ const data = {
             "desc": ""
         },
         {
-            "name":"Good Shephered",
+            "name":"Good Shepherd School",
             "yop":"2015",
             "marks":"94%",
             "class": "10th or SSLC",
