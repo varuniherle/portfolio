@@ -13,8 +13,12 @@ function Education() {
             return(
                 <div>
                     <h4>{edu.class}</h4>
-                    <h5 className='text-info font-weight-bold'>{edu.name}</h5>
-                    <p><b>Passout:</b> {edu.yop}</p>
+                    
+                    <span>
+                    <span className='text-info font-weight-bold h3'>{edu.name}, </span>
+                    <b>Passout:</b> {edu.yop}
+                    </span>
+                    
                     {edu.desc != ""? <p>{edu.desc}</p>: <></>}
                     <p><b>{edu.grade_type}: </b>{edu.marks}</p>
                     {count != n? <hr></hr>: <></>}

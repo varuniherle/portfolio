@@ -19,10 +19,13 @@ function Header() {
                 loop: true,
             }}
             /></h1>
-            
-            <a className="btn btn-outline-dark" href="#portfolio"><ArrowDown /></a>
+            <h6>I am currently working at TCS</h6>
             </div>
-    </div>
+            <div className=''>
+            <a className="btn btn-primary " href="#portfolio"><ArrowDown /></a>
+
+            </div>
+        </div>
     </div>
   )
 }

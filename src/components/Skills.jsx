@@ -10,30 +10,30 @@ function Skills() {
   return (
     <div>
         <div className='row'>
-        <h5 className='text-info'>Langauges</h5>
+        <h3 className='text-info'>Langauges</h3>
         {lang.map((l) =>{
             return(
-                <div className='col-6 card'>
+                <div className='col-6 card1' bg="secondary">
                     {l}
                 </div>
             )
         })}
         </div>
         <div className='row'>
-        <h5 className='text-info'>Query Languages</h5>
+        <h3 className='text-info'>Query Languages</h3>
         {query.map((l) =>{
             return(
-                <div className='col-6 card'>
+                <div className='col-6 card1' bg="secondary">
                     {l}
                 </div>
             )
         })}
         </div>
         <div className='row'>
-        <h5 className='text-info'>Langauges</h5>
+        <h3 className='text-info'>Langauges</h3>
         {framework.map((l) =>{
             return(
-                <div className='col-6 card'>
+                <div className="col-6 card1">
                     {l}
                 </div>
             )

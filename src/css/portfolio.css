@@ -3,6 +3,7 @@
 }
 .portfolio{
     position: relative;
+    /* margin-top: 40px; */
     height: auto;
     min-height: 500px;
     width: 100%;

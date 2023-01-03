@@ -4,18 +4,18 @@ const data = {
     "Query Languages" :["SQL","KQL","No SQL" ], 
     "Frameworks" :["React", "Express"]
     },
-    "soical_media":{
-        "linkedIn":"",
-        "github":"",
-        "instagram":""
-    },
-    "contact":{
-        "email":"",
-        "linkedIn":""
-    },
+    
+    "contact":[
+        {"name" : "Email",
+        "link": "varunipherle@gmail.com"},
+        {"name": "LinkedIn",
+        "link":"https://www.linkedin.com/in/varuni-p-herle-26a3bb1a9/"},
+        {"name": "Github" ,
+        "link":"https://github.com/varuniherle"}
+],
     "education":[
         {
-            "name":"SJBIT",
+            "name":"SJB Institute of Technology",
             "yop":"2017-2021",
             "marks":"8.3",
             "class" :"BE in Computer Science",
@@ -44,14 +44,22 @@ const data = {
     ],
     "achievement":[
         {
-            "certificate":"",
-            "name":"",
-            "prize":""
+            "title":"Star of the quarter",
+            "prize":"",
+            'link':"https://drive.google.com/file/d/1m0g9-__4bl-tVwYNLLYEA-DEapkUOfmy/view?usp=sharing",
+            'desc':"I have been awarded as Star of the month on October 2022"
         },
         {
-            "certificate":"",
-            "name":"",
-            "prize":""
+            "title":"SheHacks - A Women only Hackathon",
+            "prize":"2nd Runner",
+            'link':"https://drive.google.com/file/d/1mGVFzd-OpHYZiuZusKibjqCCDHIfXXSG/view?usp=sharing",
+            'desc':"Secured a 3rd place in hackthon by organised by IEEE CIS Chapter, GHRCE, conducted on Sept, 2020"
+        },
+        {
+            "title":"Sustaninathon- 24 hour Hackathon",
+            "prize":"Winner",
+            'link':"https://drive.google.com/file/d/1cjOEASfQEFvQ_BIj_QkvFVFXQJ82U3Cz/view?usp=sharing",
+            'desc':"Secured a 1st place in hackthon conducted on Nov, 2020 by Bharati Vidyapeeth College of Engineering"
         },
     ],
     "publication":[],
@@ -59,8 +67,26 @@ const data = {
          {"company":"TCS",
         "Year of joining":"Oct 2021",
         "end date": "Present",
-        "desc" :"Currectly working as site reliability engineer. \n I have been awarded as star of the quater. \n"}
-    ]
+        "desc" :"Currectly working as site reliability engineer."}
+    ],
+    "project":[
+        {
+            "name":"Predicting disease based on different symptoms",
+            "link":"https://m.box.com/shared_item/https%3A%2F%2Fapp.box.com%2Fs%2Fnxekyxo4m136jw3n90zppu7mval1jb29",
+            "desc":"The website predicts disease based on user input using various machine learning algorithms and chatbots informs the user about symptoms and disease prognosis"
+        },
+        {
+            "name":"Expense tracker",
+            "link":"",
+            "desc":"The system which keeps track of the income and expense, built using react js and Express js"
+        },
+        {
+            "name":"Anti cheat Online test",
+            "link":"https://github.com/varuniherle/Anti-cheat-Online-test/tree/main/mini-project",
+            "desc":"This is the student teacher portal, which enables students to take quiz which is posted by the teacher"
+        }
+
+    ],
 
 
 }

@@ -1,7 +1,10 @@
-.card{
-    width: 46%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.card1{
+width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.281);
   text-align: center;
+  height: auto;
+  padding: 10px;
   margin: 2%;
-  padding :10px
+  background-color: #303030;
+  
 }
