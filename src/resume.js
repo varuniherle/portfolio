@@ -59,7 +59,7 @@ const data = {
             "title":"Sustaninathon- 24 hour Hackathon",
             "prize":"Winner",
             'link':"https://drive.google.com/file/d/1cjOEASfQEFvQ_BIj_QkvFVFXQJ82U3Cz/view?usp=sharing",
-            'desc':"Secured a 1st place in hackthon conducted on Nov, 2020 by Bharati Vidyapeeth College of Engineering"
+            'desc':"Secured a 1st place in hackthon conducted by Bharati Vidyapeeth College of Engineering on Nov, 2020"
         },
     ],
     "publication":[],
