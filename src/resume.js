@@ -2,7 +2,7 @@ const data = {
     "about":"I am currectly working at TCS as Site realiablity engineer, I like to learn new technologies, ",
     "skills":{"Languages" :["Python", "Java"] , 
     "Query Languages" :["SQL","KQL","No SQL" ], 
-    "Frameworks" :["React", "Express"]
+    "Frameworks" :["React JS", "Express JS"]
     },
     
     "contact":[

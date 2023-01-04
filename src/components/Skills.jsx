@@ -30,7 +30,7 @@ function Skills() {
         })}
         </div>
         <div className='row'>
-        <h3 className='text-info'>Langauges</h3>
+        <h3 className='text-info'>Framework</h3>
         {framework.map((l) =>{
             return(
                 <div className="col-6 card1">
