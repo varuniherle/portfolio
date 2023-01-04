@@ -53,7 +53,7 @@ const data = {
             "title":"SheHacks - A Women only Hackathon",
             "prize":"2nd Runner",
             'link':"https://drive.google.com/file/d/1mGVFzd-OpHYZiuZusKibjqCCDHIfXXSG/view?usp=sharing",
-            'desc':"Secured a 3rd place in hackthon by organised by IEEE CIS Chapter, GHRCE, conducted on Sept, 2020"
+            'desc':"Secured a 3rd place in hackthon organised by IEEE CIS Chapter, GHRCE, conducted on Sept, 2020"
         },
         {
             "title":"Sustaninathon- 24 hour Hackathon",
