@@ -12,7 +12,7 @@ const project = data.project
             {project.map((p)=>{
                 return(
                     
-                    <Card style={{ width: '22rem' }}>
+                    <Card style={{ width: '22rem',height:'15rem' }}>
                         {/* <Card.Header> */}
                         <Card.Title >
                             <p className='text-info h5'>{p.name}</p>
