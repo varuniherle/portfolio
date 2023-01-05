@@ -8,30 +8,39 @@ const project = data.project
   return (
     <div className='container'>
         <h2 className='text-info'>My Projects</h2>
-        <div className='row'>
+        <div className='row container'>
             {project.map((p)=>{
                 return(
-                    
-                    <Card style={{ width: '22rem',height:'15rem' }}>
-                        {/* <Card.Header> */}
-                        <Card.Title >
-                            <p className='text-info h5'>{p.name}</p>
-                        </Card.Title>
-                        {/* </Card.Header> */}
+            <div className='col-md-3 card2 m-3' bg ="secondary">
+              <a className='text-info h4 link' href={p.link}>{p.name}</a>
+              <p>{p.desc}</p>
+              
+
+       
+            </div>
+                    // <div className='col-md-4'>
+                    // <Card style={{height  :'18rem'}}>
                         
-                        <Card.Body>
-                            <Card.Text>
-                                {p.desc}
-                            </Card.Text>
-                        </Card.Body>
-                        {p.link !="" ? 
-                                 <a href ={p.link} className="link">More about the project</a>
-                        : <></>}
-                    </Card>
-                    
+                    //     {/* <Card.Header> */}
+                    //     <Card.Title >
+                    //         <p className='text-info h5'>{p.name}</p>
+                    //     </Card.Title>
+                    //     {/* </Card.Header> */}
+                        
+                    //     <Card.Body>
+                    //         <Card.Text>
+                    //             {p.desc}
+                    //         </Card.Text>
+                    //     </Card.Body>
+                    //     {p.link !="" ? 
+                    //              <a href ={p.link} className="link">More about the project</a>
+                    //     : <></>}
+                    // </Card>
+                    // </div>
                 )
             })}
         </div>
+        
     </div>
   )
 }

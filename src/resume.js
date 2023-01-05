@@ -56,7 +56,7 @@ const data = {
             'desc':"Secured a 3rd place in hackthon organised by IEEE CIS Chapter, GHRCE, conducted on Sept, 2020"
         },
         {
-            "title":"Sustaninathon- 24 hour Hackathon",
+            "title":"Sustaninathon- 24 hours Hackathon",
             "prize":"Winner",
             'link':"https://drive.google.com/file/d/1cjOEASfQEFvQ_BIj_QkvFVFXQJ82U3Cz/view?usp=sharing",
             'desc':"Secured a 1st place in hackthon conducted by Bharati Vidyapeeth College of Engineering on Nov, 2020"
@@ -77,14 +77,19 @@ const data = {
         },
         {
             "name":"Expense tracker",
-            "link":"",
-            "desc":"The system which keeps track of the income and expense, built using react js and Express js"
+            "link":"https://github.com/varuniherle/expense-income-notes-tracker",
+            "desc":"A personal website which keeps track of the income, expense, notes built using react js, node js, Express js"
         },
         {
             "name":"Anti cheat Online test",
             "link":"https://github.com/varuniherle/Anti-cheat-Online-test/tree/main/mini-project",
-            "desc":"This is the student teacher portal, which enables students to take quiz which is posted by the teacher"
-        }
+            "desc":"This is the student teacher portal, which enables students to take quiz which is posted by the teacher. The system detects the cheating if any"
+        },
+        // {
+        //     "name":"varuni",
+        //     "link":"",
+        //     "desc":"LOGS"
+        // }
 
     ],
 

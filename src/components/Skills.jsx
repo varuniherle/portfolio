@@ -13,7 +13,7 @@ function Skills() {
         <h3 className='text-info'>Langauges</h3>
         {lang.map((l) =>{
             return(
-                <div className='col-6 card1' bg="secondary">
+                <div className='col-6 card3' bg="secondary">
                     {l}
                 </div>
             )
@@ -23,7 +23,7 @@ function Skills() {
         <h3 className='text-info'>Query Languages</h3>
         {query.map((l) =>{
             return(
-                <div className='col-6 card1' bg="secondary">
+                <div className='col-6 card3' bg="secondary">
                     {l}
                 </div>
             )
@@ -33,7 +33,7 @@ function Skills() {
         <h3 className='text-info'>Framework</h3>
         {framework.map((l) =>{
             return(
-                <div className="col-6 card1">
+                <div className="col-6 card3">
                     {l}
                 </div>
             )
