@@ -11,7 +11,7 @@ function Navigation() {
     <div>
     <Navbar collapseOnSelect expand="lg" variant='dark' bg="secondary" fixed="top" >
       <Container fluid>
-        <Navbar.Brand href="#home"></Navbar.Brand>
+        <Navbar.Brand href="#">Varuni Herle</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end flex-grow-1 pe-3">
