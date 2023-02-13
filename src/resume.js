@@ -15,6 +15,15 @@ const data = {
 ],
     "education":[
         {
+            "name":"IIIT Bangalore ",
+            "yop":"2022 - Present",
+            "marks":"",
+            "class" :"Executive Post Graduate Programme in Software Development ",
+            "grade_type": "CGPA",
+            "desc": "I am currently pursuing EPGP - Specialisation in Full Stack Development"
+
+        },
+        {
             "name":"SJB Institute of Technology",
             "yop":"2017-2021",
             "marks":"8.3",

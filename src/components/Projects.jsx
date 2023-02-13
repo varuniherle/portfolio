@@ -8,10 +8,10 @@ const project = data.project
   return (
     <div className='container'>
         <h2 className='text-info'>My Projects</h2>
-        <div className='row container'>
+        <div className='row'>
             {project.map((p)=>{
                 return(
-            <div className='col-md-3 card2 m-3' bg ="secondary">
+            <div className='col-md-3 card2 mx-auto mb-2'>
               <a className='text-info h4 link' href={p.link}>{p.name}</a>
               <p>{p.desc}</p>
               
