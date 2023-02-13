@@ -17,7 +17,7 @@ const data = {
         {
             "name":"IIIT Bangalore ",
             "yop":"2022 - Present",
-            "marks":"",
+            "marks":"NA",
             "class" :"Executive Post Graduate Programme in Software Development ",
             "grade_type": "CGPA",
             "desc": "I am currently pursuing EPGP - Specialisation in Full Stack Development"
