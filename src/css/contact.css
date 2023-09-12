@@ -12,3 +12,8 @@
   .card2:hover{
     background-color: #3030;
   }
+
+  .footerbackground{
+    background-color: #303030;
+    overflow: hidden;
+  }

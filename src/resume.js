@@ -1,8 +1,8 @@
 const data = {
     "about":"I am currectly working at TCS as Site realiablity engineer, I like to learn new technologies, ",
-    "skills":{"Languages" :["Python", "Java"] , 
+    "skills":{"Languages" :["Python", "Java","Javascipt"] , 
     "Query Languages" :["SQL","KQL","No SQL" ], 
-    "Frameworks" :["React JS", "Express JS"]
+    "Frameworks" :["React JS"]
     },
     
     "contact":[
@@ -59,6 +59,12 @@ const data = {
             'desc':"I have been awarded as Star of the month on October 2022"
         },
         {
+            "title":"Tata Neu app improvement ideathons",
+            "prize":"Ranked in the top 10",
+            'link':"https://drive.google.com/file/d/1HKT-RLpHnoijQ4JAIKnSen5l8IO3MH5H/view?usp=sharing",
+            'desc':"Ranked in the top 10 participants in Tata Neu app improvement ideathons"
+        },
+        {
             "title":"SheHacks - A Women only Hackathon",
             "prize":"2nd Runner",
             'link':"https://drive.google.com/file/d/1mGVFzd-OpHYZiuZusKibjqCCDHIfXXSG/view?usp=sharing",
@@ -70,13 +76,29 @@ const data = {
             'link':"https://drive.google.com/file/d/1cjOEASfQEFvQ_BIj_QkvFVFXQJ82U3Cz/view?usp=sharing",
             'desc':"Secured a 1st place in hackthon conducted by Bharati Vidyapeeth College of Engineering on Nov, 2020"
         },
+        
     ],
     "publication":[],
     "experience":[
-         {"company":"TCS",
+        {"company":"Tata Consultancy Services",
         "Year of joining":"Oct 2021",
         "end date": "Present",
-        "desc" :"Currectly working as site reliability engineer."}
+        "client":[{
+        "client":"Tata Digital Limited",
+        "role":"Site reliability engineering",
+        "desc" :["Evaluated and replicated customer-reported issues across Android, iOS, and PWA platforms as an L2 Engineer"
+        ,"Generated multiple Knowledge Base Articles to provide comprehensive reference and support resources for troubleshooting",
+        "Utilized advanced proficiency in KQL to effectively analyze logs, identifying and diagnosing system issues with expertise",
+        "Monitored actively and analyzed logs using Grafana for proactive issue detection",
+        "Developed Power BI dashboards to derive valuable insights from log data"]
+        },
+        {
+          "client":"Halfords" ,
+          "role": "Front end development Engineer",
+          "desc" :["Working on frontend optimization"] 
+        }],
+        
+    }
     ],
     "project":[
         {
