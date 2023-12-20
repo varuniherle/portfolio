@@ -9,7 +9,7 @@ import '../css/navigation.css'
 function Navigation() {
   return (
     <div>
-    <Navbar collapseOnSelect expand="lg" variant='dark' bg="secondary" fixed="top" >
+    <Navbar collapseOnSelect expand="lg" variant='dark' bg="primary" fixed="top" >
       <Container fluid>
         <Navbar.Brand href="#">Varuni Herle</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

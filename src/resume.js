@@ -1,5 +1,5 @@
 const data = {
-    "about":"I am a Results-driven Software Developer with expertise in implementing user-focused features, optimizing code for enhanced performance, and managing deployment cycles using Azure DevOps.Proven ability in proactive bug resolution, root cause analysis, and creating real-time performance monitoring dashboards with React JS.",
+    "about":"I am a Results-driven Software Developer with expertise in implementing user-focused features, optimizing code for enhanced performance, and managing deployment cycles using Azure DevOps. Proven ability in proactive bug resolution, root cause analysis, and creating real-time performance monitoring dashboards with React JS.",
 
     "skills":{"Languages" :[ "Java","Javascipt"] , 
     "Query Languages" :["SQL","KQL","No SQL" ], 
@@ -116,15 +116,11 @@ const data = {
             "desc":"A personal website which keeps track of the income, expense, notes built using react js, node js, Express js"
         },
         {
-            "name":"Anti cheat Online test",
-            "link":"https://github.com/varuniherle/Anti-cheat-Online-test/tree/main/mini-project",
-            "desc":"This is the student teacher portal, which enables students to take quiz which is posted by the teacher. The system detects the cheating if any"
+            "name":"Pay-Slip Generator",
+            "link":"#",
+            "desc":"Developed a custom payslip generator application using ReactJS to automate the previously manual process at my family's printing press."
         },
-        // {
-        //     "name":"varuni",
-        //     "link":"",
-        //     "desc":"LOGS"
-        // }
+        
 
     ],
 

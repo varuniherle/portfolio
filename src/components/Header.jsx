@@ -13,7 +13,7 @@ function Header() {
     <div>
         <div className='header'>
             <div  className='header_content'>
-            <h2 className='text-info'>Hey!</h2>
+            <h2 className='text-info'>Hey There!</h2>
             <h1>
             <Typewriter
             options={{
@@ -27,7 +27,7 @@ function Header() {
             </div>
             </div>
             <div className=''>
-            <a className="btn btn-primary " href="#portfolio"><ArrowDown /></a>
+            <a className="btn btn-info " href="#portfolio"><ArrowDown /></a>
             </div>
         </div>
     </div>
