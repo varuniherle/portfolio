@@ -27,12 +27,6 @@ function Home() {
         <Projects />
         </div>
 
-        <div id ="contact">
-        <Contact />
-        </div>
-
-        
-
     </div>
      
     

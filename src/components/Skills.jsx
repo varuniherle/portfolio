@@ -7,6 +7,7 @@ function Skills() {
     const lang = data.skills.Languages;
     const framework = data.skills.Frameworks;
     const query = data.skills['Query Languages']
+   const version = data.skills['Version Control']
   return (
     <div>
         <div className='row'>
@@ -38,7 +39,16 @@ function Skills() {
                 </div>
             )
         })}
+        <h3 className='text-info'>Version Control</h3>
+        {version.map((l) =>{
+            return(
+                <div className="col-6 card3">
+                    {l}
+                </div>
+            )
+        })}
         </div>
+        
     </div>
   )
 }

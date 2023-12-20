@@ -3,6 +3,9 @@ import { Button } from 'react-bootstrap'
 import { ArrowDown } from 'react-bootstrap-icons'
 import Typewriter from 'typewriter-effect';
 import '../css/header.css'
+import About from './About';
+import data from '../resume';
+import Contact from './Contact';
 
 
 function Header() {
@@ -19,11 +22,12 @@ function Header() {
                 loop: true,
             }}
             /></h1>
-            <h6>I am currently working at Tata Consultancy Services as Systems Engineer</h6>
+            <div className='container'>
+            <About />
+            </div>
             </div>
             <div className=''>
             <a className="btn btn-primary " href="#portfolio"><ArrowDown /></a>
-
             </div>
         </div>
     </div>

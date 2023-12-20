@@ -1,19 +1,5 @@
-.link{
-    text-decoration: none;
+.contacts{
+  display: 'flex'; 
+  justify-content: center;
+  align-items: center;
 }
-
-.card2{
-  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.281);
-    background-color: #303030;
-    padding: 1%;
-    
-  }
-  .card2:hover{
-    background-color: #3030;
-  }
-
-  .footerbackground{
-    background-color: #303030;
-    overflow: hidden;
-  }

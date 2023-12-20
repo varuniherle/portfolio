@@ -21,7 +21,7 @@ function Navigation() {
             {/* <Nav.Link href="#">Experience</Nav.Link> */}
             <Nav.Link href="#projects">Projects</Nav.Link>
             {/* <Nav.Link href="#">Achievement</Nav.Link> */}
-            <Nav.Link href="#contact">Contact</Nav.Link>
+        
           </Nav>
         </Navbar.Collapse>
       </Container>
