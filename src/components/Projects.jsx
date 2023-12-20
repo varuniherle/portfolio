@@ -6,7 +6,7 @@ import data from '../resume.js'
 function Projects() {
 const project = data.project
   return (
-    <div className='container'>
+    <div className='container p-3'>
         <h2 className='text-info'>My Projects</h2>
         <div className='row'>
             {project.map((p)=>{
