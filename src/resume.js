@@ -10,9 +10,9 @@ const data = {
   },
 
   "contact": [
-    {"name": "Email", "link": "varunipherle@gmail.com"},
-    {"name": "LinkedIn", "link": "https://www.linkedin.com/in/varuni-p-herle-26a3bb1a9/"},
-    {"name": "Github", "link": "https://github.com/varuniherle"}
+    { "name": "Email", "link": "varunipherle@gmail.com" },
+    { "name": "LinkedIn", "link": "https://www.linkedin.com/in/varuni-p-herle-26a3bb1a9/" },
+    { "name": "Github", "link": "https://github.com/varuniherle" }
   ],
 
   "education": [
@@ -55,7 +55,7 @@ const data = {
       "title": "Star of the quarter",
       "prize": "",
       "link": "https://drive.google.com/file/d/1m0g9-__4bl-tVwYNLLYEA-DEapkUOfmy/view?usp=sharing",
-      "desc": "I have been awarded as Star of the month on October 2022"
+      "desc": "I have been awarded as Star of the month in October 2022"
     },
     {
       "title": "Tata Neu app improvement ideathons",
@@ -64,16 +64,16 @@ const data = {
       "desc": "Ranked in the top 10 participants in Tata Neu app improvement ideathons"
     },
     {
-      "title": "SheHacks - A Women only Hackathon",
+      "title": "SheHacks - A Women-only Hackathon",
       "prize": "2nd Runner",
       "link": "https://drive.google.com/file/d/1mGVFzd-OpHYZiuZusKibjqCCDHIfXXSG/view?usp=sharing",
-      "desc": "Secured a 3rd place in hackathon organised by IEEE CIS Chapter, GHRCE, conducted on Sept, 2020"
+      "desc": "Secured 3rd place in hackathon organised by IEEE CIS Chapter, GHRCE, conducted in Sept 2020"
     },
     {
-      "title": "Sustaninathon- 24 hours Hackathon",
+      "title": "Sustainathon - 24 hours Hackathon",
       "prize": "Winner",
       "link": "https://drive.google.com/file/d/1cjOEASfQEFvQ_BIj_QkvFVFXQJ82U3Cz/view?usp=sharing",
-      "desc": "Secured a 1st place in hackathon conducted by Bharati Vidyapeeth College of Engineering on Nov, 2020"
+      "desc": "Secured 1st place in hackathon conducted by Bharati Vidyapeeth College of Engineering in Nov 2020"
     }
   ],
 
@@ -94,7 +94,7 @@ const data = {
             "Deployed application code to production and pre-production environments using Azure DevOps.",
             "Implemented the Power BI dashboard to get an overview of the application performance, reducing monitoring effort by over 80%.",
             "Worked on UI enhancements and feature development using React JS based on requirements.",
-            "Built Log anomaly detection using ML models and OpenAI, reducing the manual effort by 40%."
+            "Built log anomaly detection using ML models and OpenAI, reducing the manual effort by 40%."
           ]
         }
       ]
@@ -108,13 +108,13 @@ const data = {
           "client": "Tata Digital Limited",
           "role": "Systems Engineer",
           "desc": [
-           "Created numerous file-processing and database services using Python based on business needs.",
-    "Scheduled many cron jobs in Azure DevOps using Python.",
-    "Implemented new features and functionalities based on user requirements and business needs in React JS.",
-    "Built a dashboard for application performance monitoring using React JS",
-    "Managed deployment of code to production environments using Azure DevOps, overseeing release cycles, rollbacks, and deployment monitoring",
-    "Analyzed reports, identified root causes, monitored application stability, and addressed bugs proactively",
-    "Utilized advanced proficiency in KQL to analyze logs, identifying and diagnosing system issues effectively"
+            "Created numerous file-processing and database services using Python based on business needs.",
+            "Scheduled many cron jobs in Azure DevOps using Python.",
+            "Implemented new features and functionalities based on user requirements and business needs in React JS.",
+            "Built a dashboard for application performance monitoring using React JS",
+            "Managed deployment of code to production environments using Azure DevOps, overseeing release cycles, rollbacks, and deployment monitoring",
+            "Analyzed reports, identified root causes, monitored application stability, and addressed bugs proactively",
+            "Utilized advanced proficiency in KQL to analyze logs, identifying and diagnosing system issues effectively"
           ]
         }
       ]
@@ -128,24 +128,24 @@ const data = {
       "desc": "JobMatchAI is a Python-based automation tool that scrapes job listings from Naukri.com based on your chosen filters, and then uses Google Gemini 2.0 Flash-Lite (via API) to score and assess how well each job matches your resume"
     },
     {
-      "name": "Sticky notes",
+      "name": "Sticky Notes",
       "link": "https://varuniherle.github.io/sticky_notes/",
-      "desc": "The website that lets to create custamisable notes"
+      "desc": "A website that lets you create customizable sticky notes"
     },
     {
-      "name": "Json Viewer",
+      "name": "JSON Viewer",
       "link": "https://varuniherle.github.io/json_viewer/",
-      "desc": "The website that lets you view the json in a good format"
+      "desc": "A website that lets you view JSON in a readable and formatted way"
     },
     {
-      "name": "Expense tracker",
+      "name": "Expense Tracker",
       "link": "https://github.com/varuniherle/expense-income-notes-tracker",
-      "desc": "A personal website which keeps track of the income, expense, notes built using react js, node js, Express js"
+      "desc": "A personal website that keeps track of income, expenses, and notes — built using React JS, Node.js, and Express.js"
     },
     {
       "name": "Pay-Slip Generator",
       "link": "#",
-      "desc": "Developed a custom payslip generator application using ReactJS to automate the previously manual process at my family's printing press."
+      "desc": "Developed a custom pay slip generator application using ReactJS to automate the previously manual process at my family's printing press."
     }
   ]
 };
