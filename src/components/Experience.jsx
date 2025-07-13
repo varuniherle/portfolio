@@ -25,7 +25,7 @@ function Experience()
                 {e.client.map((exp) =>{
                     return(
                        <div>
-                        <h5><li>Client: {exp.client}</li></h5>
+                        {/* <h5><li>Client: {exp.client}</li></h5> */}
                         <h6>Role :{exp.role}</h6>
                         <ul><b>Tasks:</b>
                         {exp.desc.map((d) =>{
