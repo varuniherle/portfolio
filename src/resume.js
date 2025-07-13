@@ -123,7 +123,7 @@ const data = {
 
   "project": [
     {
-      "name": "Sticky notesJobMatchAI",
+      "name": "JobMatchAI",
       "link": "https://github.com/varuniherle/JobMatchAI",
       "desc": "JobMatchAI is a Python-based automation tool that scrapes job listings from Naukri.com based on your chosen filters, and then uses Google Gemini 2.0 Flash-Lite (via API) to score and assess how well each job matches your resume"
     },
